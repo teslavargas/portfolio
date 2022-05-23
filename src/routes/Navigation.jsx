@@ -1,10 +1,4 @@
-import {
-  HashRouter,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter, Routes, Route, NavLink, Navigate } from "react-router-dom";
 
 import "../App.css";
 import { Home, Projects, Contact, About } from "../screens";
@@ -14,64 +8,66 @@ export const Navigation = () => {
     <HashRouter>
       <div>
         <div className="main-layout">
-          <ul>
-            <li>
-              <NavLink
-                style={{
-                  textDecoration: "none",
-                  listStyle: "none",
-                }}
-                className={({ isActive }) =>
-                  isActive ? "nav-active" : "nav-inactive"
-                }
-                to="/home"
-              >
-                Inicio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                style={{
-                  textDecoration: "none",
-                  listStyle: "none",
-                }}
-                className={({ isActive }) =>
-                  isActive ? "nav-active" : "nav-inactive"
-                }
-                to="/about"
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                style={{
-                  textDecoration: "none",
-                  listStyle: "none",
-                }}
-                className={({ isActive }) =>
-                  isActive ? "nav-active" : "nav-inactive"
-                }
-                to="/projects"
-              >
-                Proyectos
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                style={{
-                  textDecoration: "none",
-                  listStyle: "none",
-                }}
-                className={({ isActive }) =>
-                  isActive ? "nav-active" : "nav-inactive"
-                }
-                to="/contact"
-              >
-                Contacto
-              </NavLink>
-            </li>
-          </ul>
+          <div className="header">
+            <ul>
+              <li>
+                <NavLink
+                  style={{
+                    textDecoration: "none",
+                    listStyle: "none",
+                  }}
+                  className={({ isActive }) =>
+                    isActive ? "nav-active" : "nav-inactive"
+                  }
+                  to="/home"
+                >
+                  Inicio
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  style={{
+                    textDecoration: "none",
+                    listStyle: "none",
+                  }}
+                  className={({ isActive }) =>
+                    isActive ? "nav-active" : "nav-inactive"
+                  }
+                  to="/about"
+                >
+                  About
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  style={{
+                    textDecoration: "none",
+                    listStyle: "none",
+                  }}
+                  className={({ isActive }) =>
+                    isActive ? "nav-active" : "nav-inactive"
+                  }
+                  to="/projects"
+                >
+                  Proyectos
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  style={{
+                    textDecoration: "none",
+                    listStyle: "none",
+                  }}
+                  className={({ isActive }) =>
+                    isActive ? "nav-active" : "nav-inactive"
+                  }
+                  to="/contact"
+                >
+                  Contacto
+                </NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
