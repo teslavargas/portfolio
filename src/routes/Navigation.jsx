@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   NavLink,
@@ -11,7 +11,7 @@ import { Home, Projects, Contact, About } from "../screens";
 
 export const Navigation = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <div className="main-layout">
           <ul>
@@ -84,6 +84,6 @@ export const Navigation = () => {
 
         <Route path="/*" element={<Navigate to="/home" replace />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
