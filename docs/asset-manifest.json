@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcf2d01b.css",
+    "main.js": "/static/js/main.aa5cb52d.js",
+    "static/media/CVJoelVargas.pdf": "/static/media/CVJoelVargas.b4fcb8401f9403e377aa.pdf",
+    "static/media/developer.svg": "/static/media/developer.a429f7c4e892fd61a2bb775e27853028.svg",
+    "static/media/male.svg": "/static/media/male.dc020262707931523efa56df69f75a2e.svg",
+    "index.html": "/index.html",
+    "main.dcf2d01b.css.map": "/static/css/main.dcf2d01b.css.map",
+    "main.aa5cb52d.js.map": "/static/js/main.aa5cb52d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcf2d01b.css",
+    "static/js/main.aa5cb52d.js"
+  ]
+}
