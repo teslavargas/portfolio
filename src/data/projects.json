@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Map App",
+    "description": "Uso de Mapbox con TypeScript, rutas y direcciones, marcadores, comunicación entre contextos, distancia entre dos puntos, duración aproximada del viaje.",
+    "page": "https://map-app-joel-vargas.netlify.app/",
+    "github": "https://github.com/teslavargas/map",
+    "img": "https://i.imgur.com/uvku8oV.png"
+  },
+  {
+    "name": "Heroes App",
+    "description": "SPA (Single Page Application) a profundidad, multiples routers, push y replace en el history, leer argumentos por URL, QueryParams, aplicar filtros utilizando QueryStrings.",
+    "page": "https://teslavargas.github.io/heroes",
+    "github": "https://github.com/teslavargas/heroes",
+    "img": "https://github.com/teslavargas/heroes/raw/main/heroes.png"
+  },
+  {
+    "name": "Calendar App",
+    "description": "Node, Express, Mongoose, Modelos, Controllers, Middlewares de Express, JWT, MongoDB, Autenticación.",
+    "page": "https://calendario-joel.herokuapp.com/",
+    "github": "https://github.com/teslavargas/calendario",
+    "img": "https://github.com/teslavargas/calendario/raw/main/calendario.png"
+  },
+  {
+    "name": "Journal",
+    "description": "LogIn, LogOut, CRUD hacia Firestore.",
+    "page": "https://journal-app-joel-vargas.netlify.app/",
+    "github": "https://github.com/teslavargas/journal",
+    "img": "https://github.com/teslavargas/journal/raw/master/journal.PNG"
+  },
+  {
+    "name": "Gifs",
+    "description": "Custom Hooks, Fetch hacia un API, comunicación entre componentes, CSS, animaciones, enviar métodos como argumentos, Giphy.",
+    "page": "https://teslavargas.github.io/gifs",
+    "github": "https://github.com/teslavargas/gifs",
+    "img": "https://i.imgur.com/Au7kFWM.png"
+  },
+  {
+    "name": "Lista de tareas",
+    "description": "Webpack, LocalStorage, SessionStorage.",
+    "page": "https://teslavargas.github.io/lista-tareas/",
+    "github": "https://github.com/teslavargas/lista-tareas",
+    "img": "https://i.imgur.com/LSWBZZP.png"
+  }
+]
