@@ -7,11 +7,6 @@ body {
   background-size: 20px 20px;
 }
 
-html {
-  width: 100vw;
-  overflow-x: hidden;
-}
-
 h1,
 h2 {
   color: rgba(255, 255, 255, 0.92);
@@ -80,9 +75,8 @@ h2 {
 
 .containerCards {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .card {
@@ -447,6 +441,7 @@ p {
   .containerCards {
     padding-top: 0px;
     margin-top: 0px;
+    overflow: hidden;
   }
   .info box-icon {
     display: none;
@@ -480,6 +475,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -489,7 +485,7 @@ p {
   .hi h1 {
     font-size: 50px;
   }
-  
+
   .info box-icon {
     display: none;
   }
@@ -503,6 +499,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -526,6 +523,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -559,6 +557,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -591,6 +590,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -620,6 +620,8 @@ p {
     display: block;
     padding-top: 0px;
     margin-top: 0px;
+    overflow-x: hidden;
+    height: auto;
   }
   .card {
     margin-left: auto;
@@ -688,6 +690,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -712,6 +715,7 @@ p {
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    overflow: hidden;
   }
   .card {
     margin-left: auto;
@@ -729,7 +733,7 @@ p {
   border-radius: 5px;
 }
 
-.footer ul{
+.footer ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
