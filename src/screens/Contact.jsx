@@ -42,7 +42,7 @@ export const Contact = () => {
       subject: Yup.string()
         .max(20, "Debe tener 20 caracteres o menos.")
         .required("Éste campo es requerido."),
-        message: Yup.string()
+      message: Yup.string()
         .max(140, "Debe tener 140 caracteres o menos.")
         .required("Éste campo es requerido."),
     }),
@@ -50,6 +50,10 @@ export const Contact = () => {
 
   return (
     <div>
+      <div className="callToAction">
+        <h1>¡Pongámonos en contacto!</h1>
+      </div>
+
       <div className="animate__animated animate__backInDown">
         <div className="form">
           <div className="form-control">

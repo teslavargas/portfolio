@@ -35,7 +35,7 @@ export const Navigation = () => {
                   }
                   to="/about"
                 >
-                  About
+                  Sobre mí
                 </NavLink>
               </li>
               <li>

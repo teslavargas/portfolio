@@ -1,10 +1,10 @@
 body {
-  width: 100%;
   background: #1a202c;
   opacity: 1;
   background-image: linear-gradient(#4fd1c413 1px, rgba(255, 255, 255, 0) 1px),
     linear-gradient(to right, #4fd1c413 1px, #1a202c 1px);
-  background-size: 20px 20px;
+  background-size: 10px 10px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -76,7 +76,8 @@ h2 {
 .containerCards {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  overflow-x: hidden;
+  margin-top: 100px;
 }
 
 .card {
@@ -84,6 +85,7 @@ h2 {
   height: 250px;
   justify-content: center;
   display: flex;
+  margin-top: 5px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #242a36;
@@ -225,7 +227,6 @@ span,
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  padding-top: 70px;
   height: 100%;
 }
 
@@ -240,7 +241,12 @@ span,
   -webkit-box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.38);
 }
-
+.callToAction h1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
 .developer {
   display: block;
   width: 750px;
@@ -413,7 +419,7 @@ p {
   font-size: 20px;
   width: 300px;
   position: relative;
-  left: 20px;
+  left: 25px;
 }
 
 .profession h2 span {
@@ -430,13 +436,13 @@ p {
     font-size: 15px;
     padding-left: 20px;
   }
+
   .main-layout ul {
     justify-content: space-between;
-    position: relative;
-    left: 30px;
   }
+
   .main-layout li {
-    font-size: 10px;
+    margin-right: 20px;
   }
   .containerCards {
     padding-top: 0px;
@@ -449,19 +455,36 @@ p {
 }
 
 @media (max-width: 320px) {
-  .main-layout ul {
-    display: flex;
-    font-size: 5px;
-    justify-content: center;
-  }
   .info box-icon {
     display: none;
+  }
+  .form {
+    width: 250px;
+  }
+  .form-control {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+  }
+  form {
+    width: 250px;
+  }
+  .main-layout ul {
+    margin-right: 10px;
+  }
+  .main-layout li {
+    margin-right: 10px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 375px) {
   .main-layout ul {
-    justify-content: center;
+    margin-right: 20px;
+  }
+  .main-layout li {
+    margin-right: 10px;
+    font-size: 12px;
   }
   .form-control {
     border: none;
@@ -517,7 +540,6 @@ p {
 @media (max-width: 393px) {
   .main-layout ul {
     font-size: 15px;
-    justify-content: center;
   }
   .containerCards {
     display: block;
@@ -642,9 +664,8 @@ p {
   }
 
   .main-layout li {
-    font-size: 15px;
+    font-size: 13px;
   }
-
   .info {
     display: block;
   }
