@@ -5,7 +5,7 @@ import projectsData from '../data/projects.json'
 
 export const Projects = () => {
   return (
-    <div className="animate__animated animate__backInRight">
+    <div className="animate__animated animate__jello">
         <Cards projects={projectsData} />
     </div>
   );
